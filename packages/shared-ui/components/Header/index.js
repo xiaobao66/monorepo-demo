@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import theme from '../../theme'
+import { theme } from '../..'
 
 const Header = ({ siteTitle }) => (
   <div
