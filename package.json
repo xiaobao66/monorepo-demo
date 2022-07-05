@@ -26,8 +26,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
-    "test": "jest test --config ./json-config.json",
+    "test": "jest test --config ./jest-config.json",
     "run:blog": "cd packages/blog && yarn develop",
     "run:shop": "cd packages/shop && yarn develop",
     "run:all": "npm-run-all --parallel run:blog run:shop"
